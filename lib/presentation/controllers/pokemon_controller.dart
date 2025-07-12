@@ -1,5 +1,5 @@
-import 'package:ecommerce/domain/get_pokemon_usecase.dart';
-import 'package:ecommerce/domain/pokemon.dart';
+import 'package:ecommerce/domain/entities/section.dart';
+import 'package:ecommerce/domain/usecases/get_pokemon_usecase.dart';
 
 class PokemonController {
   final GetPokemonsUsecase useCase;

@@ -1,4 +1,4 @@
-import 'package:ecommerce/domain/pokemon.dart';
+import 'package:ecommerce/domain/entities/section.dart';
 
 abstract class PokemonRepository {
   Future<List<Section>> fetchPokemons();

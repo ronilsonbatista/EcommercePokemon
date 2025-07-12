@@ -1,8 +1,8 @@
-import 'package:ecommerce/data/pokemon_api_service.dart';
-import 'package:ecommerce/data/pokemon_repository_impl.dart';
-import 'package:ecommerce/domain/get_pokemon_usecase.dart';
-import 'package:ecommerce/presentation/pokemon_controller.dart';
-import 'package:ecommerce/presentation/pokemon_screen.dart';
+import 'package:ecommerce/data/repositories/pokemon_repository_impl.dart';
+import 'package:ecommerce/data/services/pokemon_api_service.dart';
+import 'package:ecommerce/domain/usecases/get_pokemon_usecase.dart';
+import 'package:ecommerce/presentation/controllers/pokemon_controller.dart';
+import 'package:ecommerce/presentation/screens/pokemon_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

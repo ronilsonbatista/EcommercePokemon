@@ -1,5 +1,5 @@
-import 'package:ecommerce/domain/pokemon.dart';
-import 'package:ecommerce/domain/pokemon_repository.dart';
+import 'package:ecommerce/domain/entities/section.dart';
+import 'package:ecommerce/domain/repositories/pokemon_repository.dart';
 
 class GetPokemonsUsecase {
   final PokemonRepository repository;

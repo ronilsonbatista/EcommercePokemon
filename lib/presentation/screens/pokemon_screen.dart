@@ -1,5 +1,5 @@
-import 'package:ecommerce/domain/pokemon.dart';
-import 'package:ecommerce/presentation/pokemon_controller.dart';
+import 'package:ecommerce/domain/entities/section.dart';
+import 'package:ecommerce/presentation/controllers/pokemon_controller.dart';
 import 'package:flutter/material.dart';
 
 class PokemonScreen extends StatelessWidget {
